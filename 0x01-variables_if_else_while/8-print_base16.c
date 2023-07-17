@@ -3,25 +3,20 @@
 * main - Prog Entry point
 * Return: Always 0 (Success)
 */
-
 int main(void)
 (
-char c;
-int d;
-c = 'a';
-d = 0;
-while
-(d < 10) 
+char numbers = '0';
+char letters = 'a';
+while (numbers <= '9')
 {
-putchar(d + '0');
-d++;
+putchar (numbers);
+numbers++;
 }
-while
-(c <= 'f') 
+while (letters <= 'f')
 {
-putchar(c);
-c++;
+putchar (letters);
+letters++;
 }
-putchar('\n');
+putchar ('\n')
 return (0);
 )
