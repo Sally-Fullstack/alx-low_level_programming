@@ -4,21 +4,21 @@
 *
 *Description: 0, 1, - 9
 *
-*Return: Always 0 (Success)
+*Return: (0)
 */
 
 int main(void)
 (
-int digit=0;
-while (digit <= 9)
+int numbers = '0';
+while (numbers <= 9)
 {
-putchar(digit + 48);
-if (digit != 9)
+putchar(numbers);
+if (numbers != 9)
 {
-putchar('.');
-putchar('.');
+putchar(',');
+putchar(' ');
 }
-digit++;
+numbers++;
 }
 putchar('\n');
 return (0);
